@@ -1,0 +1,276 @@
+Prefix(:=<http://www.semanticweb.org/gabri/ontologies/2022/3/untitled-ontology-7#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2>
+Annotation(rdfs:comment "Ontology author: Gabriel Pérez López"@en)
+Annotation(rdfs:comment "Ontology name: Pokémon - The Anime series"@en)
+
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Attack>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Building>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Episode>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Place>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokeball>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Potion>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Professor>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Route>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Season>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Status>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type>))
+Declaration(Class(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Villain>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#defeatedBy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#strongAgainst>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#weakAgainst>))
+Declaration(DataProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age>))
+Declaration(DataProperty(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ground>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pewter_City>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Water>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock's_Onix>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy> "Represents the carachter who has achieved something."@en)
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#defeatedBy> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#defeatedBy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#defeatedBy> "Represents the carachter who has defeated to another one."@en)
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy> "Represents the carachter who has delivered something."@en)
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> "The number of Pokémon that a character haves."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> ObjectExactCardinality(1 <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>))
+ObjectPropertyRange(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> ObjectMinCardinality(1 <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon>))
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType> "Represents the type of a Pokémon or move."@en)
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> "The residence place of a character."@en)
+ObjectPropertyDomain(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> ObjectAllValuesFrom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>))
+ObjectPropertyRange(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> ObjectExactCardinality(1 <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City>))
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#strongAgainst> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#strongAgainst>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#strongAgainst> "Represents the fortress of a Pokémon or move against other Pokémon."@en)
+
+# Object Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#weakAgainst> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#weakAgainst>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#weakAgainst> "Represents the weakness of a Pokémon or move against other Pokémon."@en)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> "Age of the character (years)"@en)
+DataPropertyDomain(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> DataSomeValuesFrom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> xsd:int))
+
+# Data Property: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> "Height of the character (cm)."@en)
+DataPropertyDomain(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> DataSomeValuesFrom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> xsd:int))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Attack> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Attack>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Attack> "Represents moves that cause damage to the opponent."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Attack> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Building> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Building>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Building> "Represents singular buildings in cities."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character> "Represents characters who appear in the serie."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City> "Represents the main cities in the series."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Episode> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Episode>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Episode> "Represents chapters of the series."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym> "Represents gyms where trainers can achieve medals."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Building>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader> "Represents a very strong trainer, who must be beaten in order to achieve a medal."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal> "Represents the trophy achieved when a trainer beats a gym leader."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves> "Represents the moves that Pokémon can know."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object> "Represents objects which are commonly used in the series."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Place> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Place>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Place> "Represents interesting places, other than cities."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokeball> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokeball>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokeball> "Represents the object used to catch a Pokemon."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokeball> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> "Represents monsters that are the main animals in the series."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Potion> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Potion>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Potion> "Represents the healing objects."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Potion> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Object>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Professor> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Professor>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Professor> "Represents characters dedicated to the investigation about Pokémon."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Professor> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Route> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Route>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Route> "Represents ways or roads between places and/or cities."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Season> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Season>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Season> "Represent each main set of episodes."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Status> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Status>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Status> "Represents moves that cause status changes."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Status> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Moves>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer> "Represents characters dedicated to train and battle with Pokémon."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type> "Represents elemental types or properties of Pokémon."@en)
+
+# Class: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Villain> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Villain>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Villain> "Represents characters who act with evil and clash the main protagonist."@en)
+SubClassOf(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Villain> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Character>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> "Is the main human protagonist of the series."@en)
+AnnotationAssertion(rdfs:seeAlso <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> "https://dbpedia.org/page/Ash_Ketchum"@es)
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Trainer> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town>)
+DataPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> "10"@en)
+DataPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum> "165"@en)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Medal> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash_Ketchum>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Boulder_Badge> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock>)
+
+AnnotationAssertion(rdfs:seeAlso <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> "https://dbpedia.org/page/Brock_(Pok%C3%A9mon)"@es)
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Gym_leader> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#hasPokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock's_Onix>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#residence> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pewter_City>)
+DataPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#age> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> "15"@en)
+DataPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#height> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock> "180"@en)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ground> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ground>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ground>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town> "A small town located in southwestern Kanto."@en)
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pallet_Town>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pewter_City> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pewter_City>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#City> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pewter_City>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Water> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Water>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Type> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Water>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu>)
+
+AnnotationAssertion(rdfs:seeAlso <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu> "https://dbpedia.org/page/Pikachu"@es)
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ash's_Pikachu> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>)
+
+# Individual: <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock's_Onix> (<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock's_Onix>)
+
+ClassAssertion(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Brock's_Onix>)
+
+
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "R2"^^xsd:string) Body(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType> Variable(:P) <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>) ClassAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> Variable(:P)))Head(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#strongAgainst> Variable(:P) <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Water>)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "R3"^^xsd:string) Body(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#isType> Variable(:P) <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Electric>) ClassAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Pokemon> Variable(:P)))Head(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#weakAgainst> Variable(:P) <http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#Ground>)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "R1"^^xsd:string) Body(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#deliveredBy> Variable(:M) Variable(:L)) ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#achievedBy> Variable(:M) Variable(:T)))Head(ObjectPropertyAtom(<http://www.semanticweb.org/gabri/ontologies/2022/3/RC_PEC2_EJ2#defeatedBy> Variable(:L) Variable(:T))))
+)
